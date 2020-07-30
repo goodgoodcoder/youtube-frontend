@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fc790f692b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>YouTube</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="siteName">YouTube</span>
+      </a>
+      <ul class="icons">
+        <li><i class="fas fa-search"></i></li>
+        <li><i class="fas fa-ellipsis-v"></i></li>
+      </ul>
+    </header>
+
+    <!-- Video Player -->
+    <section class="videoPlayer">
+      <video controls src="video/video.mp4"></video>
+    </section>
+
+    <section class="infoAndNext">
+      <!-- Video Info -->
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#worship</li>
+            <li>#drums</li>
+            <li>#grace</li>
+          </ul>
+          <div class="videoTitle">
+            <span class="videoTitle__title clamp"
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+              corporis veniam aliquid illum molestiae similique officiis libero
+              repellendus, error, provident vitae hic totam tempora nihil! Culpa
+              animi sequi accusamus aliquam?</span
+            >
+            <button class="videoTitle__moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <div class="details">
+            <span class="views">100K Views | </span>
+            <span class="uploadedAt">2020. 7. 29.</span>
+          </div>
+        </div>
+        <ul class="actionBtn">
+          <li>
+            <button>
+              <i class="fas fa-thumbs-up active"></i>
+              <span>10k</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-thumbs-down"></i>
+              <span>7</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-share"></i>
+              <span>Share</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-plus"></i>
+              <span>Save</span>
+            </button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i>
+              <span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <div class="channel">
+          <a href="#">
+            <img src="image/profile.jpg" class="channel__img" />
+            <div class="channel__info">
+              <span class="channel__name">goodgooddrums</span>
+              <span class="channel__follower">50K Follows</span>
+            </div>
+          </a>
+          <button class="channel__subscribeBtn">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Next Playlist -->
+      <section class="next">
+        <ul class="playlist">
+          <li>
+            <div class="next__img">
+              <img src="image/image.jpg" />
+            </div>
+            <div class="next__info">
+              <span class="next__title">
+                Reckless Love | Live Drums with Joe Volk | Bethel Music - Heaven
+                Come Conference
+              </span>
+              <span class="next__creator">goodgooddrums</span>
+              <span class="next__views">34K Views</span>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </li>
+          <li>
+            <div class="next__img">
+              <img src="image/image.jpg" />
+            </div>
+            <div class="next__info">
+              <span class="next__title">
+                Another In The Fire - Hillsong UNITED | Live Drums with Simon
+                Kobler | The People Tour
+              </span>
+              <span class="next__creator">goodgooddrums</span>
+              <span class="next__views">12K Views</span>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </li>
+          <li>
+            <div class="next__img">
+              <img src="image/image.jpg" />
+            </div>
+            <div class="next__info">
+              <span class="next__title">
+                Here Again [with MD cues] - Live Drums | Elevation Worship
+                Featuring Luke Anderson
+              </span>
+              <span class="next__creator">goodgooddrums</span>
+              <span class="next__views">23K Views</span>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </body>
+</html>
